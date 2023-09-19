@@ -88,6 +88,7 @@ class KeyValueMemoryStore:
                     self.v[gi] = torch.cat([self.v[gi], gv], -1)
                 else:
                     self.v.append(gv)
+                    quit()
 
     def update_usage(self, usage):
         # increase all life count by 1
