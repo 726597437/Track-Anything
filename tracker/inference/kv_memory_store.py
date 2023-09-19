@@ -89,6 +89,7 @@ class KeyValueMemoryStore:
                 else:
                     self.v.append(gv)
                     quit()
+                    quit()
 
     def update_usage(self, usage):
         # increase all life count by 1
